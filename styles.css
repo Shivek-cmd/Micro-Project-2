@@ -4,6 +4,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: 700;
 }
 
 /* Navigation bar styles */
@@ -23,13 +24,17 @@ html {
 .logo {
   font-family: "Delius Unicase", cursive;
   color: white;
+
+  font-size: 1rem;
 }
 
 .options {
   display: flex;
   color: white;
   font-family: "DM Sans", sans-serif;
-  align-items: center;
+
+  font-size: 0.8rem;
+  justify-content: flex-start;
 }
 
 .options ul {
@@ -40,7 +45,7 @@ html {
 
 .options li {
   list-style-type: none;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .options input[type="text"] {
@@ -48,9 +53,32 @@ html {
   padding-right: 30px;
 }
 
+.search-container {
+  display: flex;
+  position: relative;
+  width: 300px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 30px; /* Adjust as needed to accommodate icon */
+}
+
+.search-container i.fa-search {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+  color: gray; /* Icon color */
+}
+
 .icon {
-  margin-right: 20px;
-  color: white;
+  margin-right: 40px;
+}
+
+.icon i.fas.fa-bars {
+  color: white; /* Set the color to white */
 }
 
 /* Main content container */
@@ -106,6 +134,8 @@ html {
   display: flex;
   justify-content: space-around;
   margin: 30px;
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 .box-2 > div {
@@ -171,7 +201,6 @@ html {
 
 .form-group {
   margin-bottom: 20px;
-  display: block;
   margin-left: 40px;
 }
 
@@ -182,6 +211,7 @@ html {
   bottom: 30px;
   right: 40px;
   padding: 15px;
+  width: 150px;
   margin-left: 10px;
   border-radius: 20px;
 }
