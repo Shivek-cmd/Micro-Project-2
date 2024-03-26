@@ -1,26 +1,31 @@
 # Micro-Project-2
 
-This HTML code represents a basic webpage layout with a navigation bar, main content divided into different boxes, and a help icon.
+This is a small web project consisting of various components styled using CSS.
 
-Here's a breakdown of the structure:
+# How to Use
+# Navigation Bar: 
+The navigation bar at the top of the page allows easy navigation through different sections of the website. Click on the links provided to access various pages.
 
-Navigation Bar:
+# Search Functionality:
+The search bar allows users to search for specific content within the website. Simply enter the desired search query and click on the search icon.
 
-Contains the logo and navigation options like Home, About Us, Information, and More.
-Includes a search form.
-Main Content:
+# Main Content: 
+The main content area contains different boxes, each serving a specific purpose.
 
-Divided into three boxes (box-container).
-Box 1:
-Contains an image (image 4.png), a form with a textarea, and a frame icon.
-Box 2:
-Displays some statistics in different sections.
-Box 3:
-Divided into two sections.
-First section (box-3-1) contains three links: Your Info, Bookmarks, and Settings.
-Second section (box-3-2) contains a form with fields for Name, Email, Phone, and Marks, along with a submit button.
-Help Icon:
+# Box 1:
+This box displays an image alongside a form. Users can interact with the form to input data or provide feedback.
 
-Positioned separately outside the box-container.
-Links to provide help.
-The page also includes external resources like fonts and font-awesome for icons.
+# Box 2:
+This box provides statistics or information in a visually appealing manner. Each statistic is displayed in a separate box.
+
+# Box 3:
+This box consists of two sections. The first section contains various options, while the second section displays user information. Users can interact with the information and proceed using the button provided.
+
+# Help Icon:
+A help icon is available at the bottom right corner of the page, providing assistance or additional information if needed.
+
+# Technologies Used
+HTML
+CSS
+Font Awesome for icons
+Google Fonts for typography
