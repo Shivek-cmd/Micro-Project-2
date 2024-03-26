@@ -1,0 +1,231 @@
+/* Reset styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+/* Navigation bar styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6f6af7;
+  padding: 8px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-family: "Delius Unicase", cursive;
+  color: white;
+
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+
+  font-size: 0.8rem;
+  justify-content: flex-start;
+}
+
+.options ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.options li {
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+.options input[type="text"] {
+  border-radius: 10px;
+  padding-right: 30px;
+}
+
+.search-container {
+  display: flex;
+  position: relative;
+  width: 300px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 30px; /* Adjust as needed to accommodate icon */
+}
+
+.search-container i.fa-search {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+  color: gray; /* Icon color */
+}
+
+.icon {
+  margin-right: 40px;
+}
+
+.icon i.fas.fa-bars {
+  color: white; /* Set the color to white */
+}
+.nav-container a {
+  color: white;
+  text-decoration: none; /* This removes the underline from links */
+}
+/* Main content container */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+/* Box 1 styles */
+.box-1 {
+  display: flex;
+  margin: 30px;
+}
+
+.box-1 img {
+  object-fit: cover;
+  height: 350px;
+  margin-right: 20px;
+}
+
+.form-container {
+  width: 65%;
+}
+
+.form-container textarea {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #e5d8ff;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+.frame-icon {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 10px;
+
+  /* Adjust this value as needed */
+}
+.frame-icon img {
+  /* Maintain aspect ratio */
+
+  height: 200px;
+}
+
+/* Box 2 styles */
+.box-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.box-2 > div {
+  padding: 20px;
+  color: white;
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 4px 7px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box-2-1 {
+  background-color: #929dff;
+}
+
+.box-2-2 {
+  background: #734cf2;
+}
+
+.box-2-3 {
+  background: #d288ff;
+}
+
+.box-2-4 {
+  background: #000000;
+}
+
+/* Box 3 styles */
+.box-3 {
+  display: flex;
+  background: #483eff;
+  width: 90%;
+  height: 400px;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.box-3-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box-3-1 > div {
+  border: 1px;
+  text-align: center;
+  border-radius: 22px;
+  padding: 20px;
+  border: 1px solid white;
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+.box-3-2 {
+  width: 80%;
+  background-color: white;
+  margin: 20px 10px 20px 50px;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.box-3-2 button {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  padding: 15px;
+  width: 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.help-icon {
+  position: fixed;
+  bottom: 200px;
+  right: 80px;
+  z-index: 999; /* Ensure it's above other elements */
+}
+
+.help-icon img {
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Maintain aspect ratio */
+}
