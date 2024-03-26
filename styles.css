@@ -80,7 +80,10 @@ html {
 .icon i.fas.fa-bars {
   color: white; /* Set the color to white */
 }
-
+.nav-container a {
+  color: white;
+  text-decoration: none; /* This removes the underline from links */
+}
 /* Main content container */
 .box-container {
   display: flex;
