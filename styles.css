@@ -112,7 +112,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  margin: 70px auto;
+  position: relative;
+  margin: 120px auto;
+}
+.frame-icon {
+  position: sticky;
+  float: right;
+  margin-top: 50px;
+  top: 100px;
+}
+
+.frame-icon img {
+  height: 150px;
 }
 
 /* Box 1 styles */
@@ -122,6 +133,7 @@
   width: 90%;
   height: 350px;
   border-radius: 20px;
+  position: relative;
 }
 
 .box-1 img {
@@ -145,15 +157,6 @@
 }
 
 /* Frame Icon */
-.frame-icon {
-  position: fixed;
-  right: 1px;
-  z-index: 999;
-}
-
-.frame-icon img {
-  height: 200px; /* Maintain aspect ratio */
-}
 
 /* Box 2 styles */
 .box-2 {
@@ -275,7 +278,7 @@
 /* Help Icon */
 .help-icon {
   position: fixed;
-  bottom: 50px;
+  bottom: 1px;
   right: 12px;
   z-index: 999;
 }
